@@ -1,0 +1,7 @@
+Develop Log:
+repair the following bug:
+//2015-06-30 15:30
+1.customer logout uncorrectly leaving the server's socket on causing the user can't relogin.
+    method: server create a heart beat thread to keep monitor every thread and its socket and online user
+//2015-07-01 17:32
+cancel the function of check online user 
